@@ -1,0 +1,37 @@
+{
+    "name": "inflammatory-writ",
+    "version": "0.0.1",
+    "description": "MQTT Actuator and Sensor demonstration",
+    "main": "index.js",
+    "scripts": {
+
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cullens/inflammatory-writ.git"
+    },   
+    "engines": {
+        "node": "0.10.x"
+    },
+    "keywords": [
+        "joanna newsom",
+        "thing.js",
+        "demonstration",
+        "agent",
+        "messaging",
+        "sensor",
+        "actuator",
+        "mqtt"
+    ],
+    "author": "Simon Cullen <cullens@bentham.st>",
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/cullens/inflammatory-writ/raw/master/LICENSE"
+    }],
+    "devDependencies": {
+
+    },
+    "dependencies": {
+        "thingjs-agent": "~0.2.0"
+    }
+}
