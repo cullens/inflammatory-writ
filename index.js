@@ -60,9 +60,9 @@ agent('extends broker', {
             wake: function($cb) {
                 var now = new Date(),
                     timeStamp =     
-                        this.$parent.toRoman(now.getHours()) + ' ' + 
-                        this.$parent.toRoman(now.getMinutes()) + ' ' + 
-                        this.$parent.toRoman(now.getSeconds()) 
+                        this.$parent.toRoman(now.getHours() + 1) + ' ' + 
+                        this.$parent.toRoman(now.getMinutes() + 1) + ' ' + 
+                        this.$parent.toRoman(now.getSeconds() + 1) 
                     ; 
 
                 agent(this.$parent.act)
